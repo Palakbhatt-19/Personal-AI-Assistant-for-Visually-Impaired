@@ -1,0 +1,61 @@
+name: see_for_me
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  camera: ^0.10.5+9
+  provider: ^6.1.4
+  flutter_tts: ^4.2.2
+  http: ^1.3.0
+  go_router: ^14.8.1
+  image_picker: ^1.1.2
+  google_mlkit_text_recognition: ^0.15.0
+  path: ^1.9.1
+  google_mlkit_commons: ^0.11.0
+  # tflite: ^1.1.2
+  # tflite_flutter: ^0.10.4
+  # tflite_flutter_helper: ^0.4.1
+  image: ^3.0.2
+  path_provider: 2.0.15
+  flutter_launcher_icons: ^0.11.0
+
+  
+ 
+  
+ 
+ 
+  
+ 
+ 
+  
+  
+ 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png 
+    # - assets/best_float32.tflite
+    - assets/labels.txt
+    - assets/model_unquant2.tflite
+    - assets/labels2.txt
+    - assets/model_unquant.tflite
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/Logo1.png"
